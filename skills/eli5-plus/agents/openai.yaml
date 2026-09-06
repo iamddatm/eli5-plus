@@ -1,0 +1,4 @@
+interface:
+  display_name: "ELI5+"
+  short_description: "用图解、类比和原理，帮助读者真正理解复杂知识与边界"
+  default_prompt: "使用 $eli5-plus 解释一个复杂主题，帮助零基础读者建立准确的心智模型，并输出独立 HTML 页面。"
