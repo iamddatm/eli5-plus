@@ -63,7 +63,7 @@ $eli5-plus Explain RAG with diagrams
 $eli5-plus Why can a smaller model learn from a larger model through distillation?
 ```
 
-Agents with automatic skill discovery may select it from a matching ordinary request. The primary deliverable is a standalone `.html` file in the workspace, not a long block of raw HTML in chat.
+Agents with automatic skill discovery may select it from a matching ordinary request. The primary deliverable is a standalone `.html` file in the workspace's `eli5-output/` subdirectory, not a long block of raw HTML in chat.
 
 ## Compatibility
 

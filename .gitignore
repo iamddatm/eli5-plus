@@ -9,3 +9,5 @@ build/
 .claude/skills/
 # darwin 优化流程的本机测试 prompts,不入库
 skills/eli5-plus/test-prompts.json
+# eli5-plus skill 生成的解释页面输出目录,不入库
+eli5-output/
