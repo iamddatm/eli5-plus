@@ -8,8 +8,6 @@ ELI5+ 是一个面向 AI Agent 的开源 skill。它把复杂主题解释成准�
 
 ## 效果与示例
 
-详细的设计思路、生成效果和使用说明，请阅读：[ELI5+ 详细效果说明与示例（微信公众号）](https://mp.weixin.qq.com/s/X95JKZzp0wVZqdZKaOcXQQ)。
-
 ![ELI5+ RAG 效果图](assets/rag-eli5-plus-preview.png)
 
 ## 它做什么

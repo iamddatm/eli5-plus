@@ -6,10 +6,6 @@
 
 ELI5+ is an open-source skill for AI agents. It turns complex topics into accurate, visual, progressively layered standalone HTML explainers for non-specialists. The goal is a useful mental model, not merely a simplified definition.
 
-## Walkthrough and examples
-
-For a detailed Chinese walkthrough of the design, generated results, and usage, read [ELI5+ detailed walkthrough and examples on WeChat](https://mp.weixin.qq.com/s/X95JKZzp0wVZqdZKaOcXQQ).
-
 ## What it does
 
 - Builds intuition before introducing the real mechanism.

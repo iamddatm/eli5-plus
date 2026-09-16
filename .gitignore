@@ -5,3 +5,7 @@ __pycache__/
 .idea/
 .vscode/
 build/
+# junction 安装链接(源文件在 skills/ 下跟踪,链接为本机安装产物)
+.claude/skills/
+# darwin 优化流程的本机测试 prompts,不入库
+skills/eli5-plus/test-prompts.json
