@@ -83,6 +83,8 @@ $eli5-plus 为什么模型蒸馏能让小模型学习大模型？
 | 准确性 | 容许较强简化 | 简单但不失真，明确类比边界 |
 | 交付 | 通常是短回答 | 完整、独立的 HTML 页面 |
 
+上表中的 ELI5 指 Anthropic 社区插件目录中的官方插件（[来源](https://github.com/anthropics/claude-plugins-community/tree/main/eli5)），本仓库在 [`skills/eli5`](skills/eli5) 收录了其原样副本供对照与离线安装（来源与许可证记录见 [ATTRIBUTION.md](ATTRIBUTION.md)），该副本非本项目维护。
+
 ## 设计原则
 
 1. **先直觉，后原理**：先说清它是什么、解决什么问题，再进入真实机制。
@@ -100,9 +102,11 @@ $eli5-plus 为什么模型蒸馏能让小模型学习大模型？
 .
 ├── .github/workflows/validate.yml
 ├── scripts/validate_skill.py
-└── skills/eli5-plus
-    ├── SKILL.md
-    └── agents/openai.yaml    # 可选的 Codex/OpenAI 客户端元数据
+└── skills/
+    ├── eli5                  # 官方社区 eli5 插件原样副本（非本项目维护，见 ATTRIBUTION.md）
+    └── eli5-plus
+        ├── SKILL.md
+        └── agents/openai.yaml    # 可选的 Codex/OpenAI 客户端元数据
 ```
 
 ## 本地校验

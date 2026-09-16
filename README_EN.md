@@ -79,6 +79,8 @@ The core behavior is defined entirely in `skills/eli5-plus/SKILL.md` and does no
 | Accuracy | May simplify aggressively | Simple without distortion; analogy limits are explicit |
 | Deliverable | Usually a short answer | A complete standalone HTML page |
 
+The ELI5 in the table above refers to the official plugin in the Anthropic community plugins directory ([source](https://github.com/anthropics/claude-plugins-community/tree/main/eli5)). A verbatim copy is archived at [`skills/eli5`](skills/eli5) in this repository for comparison and offline installation (source and license records: [ATTRIBUTION.md](ATTRIBUTION.md)); that copy is not maintained by this project.
+
 ## Design principles
 
 1. **Intuition before mechanism**: explain what it is and why it exists before the implementation details.
@@ -96,9 +98,11 @@ See [skills/eli5-plus/SKILL.md](skills/eli5-plus/SKILL.md) for the complete beha
 .
 ├── .github/workflows/validate.yml
 ├── scripts/validate_skill.py
-└── skills/eli5-plus
-    ├── SKILL.md
-    └── agents/openai.yaml    # optional Codex/OpenAI client metadata
+└── skills/
+    ├── eli5                  # verbatim copy of the official community eli5 plugin (not maintained by this project; see ATTRIBUTION.md)
+    └── eli5-plus
+        ├── SKILL.md
+        └── agents/openai.yaml    # optional Codex/OpenAI client metadata
 ```
 
 ## Local validation
